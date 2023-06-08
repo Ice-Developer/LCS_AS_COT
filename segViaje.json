@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "tipo": "Work and Holiday",
+        "img": "../assets/img/workHoliday2.png",
+        "descrip": "Entrenamientos personalizados para formar asesores de seguros digitalizados.",
+        "titulo": "Mira nuestros planes",
+        "btn1": "Planes de 90 días",
+        "btn2": "Planes de 180 días",
+        "btn3": "Planes de 365 días"
+    },
+    {
+        "id": 2,
+        "tipo": "Vacaciones",
+        "img": "../assets/img/vacaciones2.png",
+        "descrip": "Entrenamientos personalizados para formar asesores de seguros digitalizados.",
+        "titulo": "Recibi la mejor cotización para tu viaje",
+        "btnCotiza": "Solicita tu Cotización"
+    },
+    {
+        "id": 3,
+        "tipo": "Expatriaciones",
+        "img": "../assets/img/expatriacion.png",
+        "descrip": "Entrenamientos personalizados para formar asesores de seguros digitalizados.",
+        "titulo": "Tenemos las mejores opciones para vos y tu familia",
+        "btnCotiza": "Solicita tu Cotización"
+    }
+]

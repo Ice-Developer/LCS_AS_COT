@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "tipo": "Mentoria",
+        "titulo": "De 0 a 100 polizas",
+        "img": "../assets/img/ceroACienPolizas.png",
+        "descrip": "Comenza hoy a trabajar en el mercado asegurador",
+        "btn": "Comienza Hoy",
+        "detalle": "../assets/img/detalleCeroACien.png"
+    },
+    {
+        "id": 2,
+        "tipo": "Mentoria",
+        "titulo": "Asesor de Seguros 5.0",
+        "img": "../assets/img/asesorCinco.png",
+        "descrip": "Construi tu identidad digital y armá tu oficina virtual.",
+        "btn": "Proximamente",
+        "form": "",
+        "detalle": ""
+    },
+    {
+        "id": 3,
+        "tipo": "Master Class",
+        "titulo": "Optimiza tus redes",
+        "img": "../assets/img/optimiza.png",
+        "descrip": "Que tus redes sociales se conviertan en la puerta de entrada de nuevos asegurados.",
+        "btn": "Proximamente",
+        "form": "",
+        "detalle": ""
+    },
+    {
+        "id": 4,
+        "tipo": "Master Class",
+        "titulo": "Negocios Digitales",
+        "img": "../assets/img/negociosDigitales.png",
+        "descrip": "Diseña tu propuesta de valor y destacate como asesor digital.",
+        "btn": "Proximamente",
+        "form": "",
+        "detalle": ""
+    },
+    {
+        "id": 5,
+        "tipo": "Capacitaciones in Company",
+        "titulo": "",
+        "img": "../assets/img/capCompania.png",
+        "descrip": "Entrenamientos personalizados para formar asesores de seguros digitalizados.",
+        "btn": "Empecemos ya!",
+        "form": "https://walink.co/f68381",
+        "detalle": ""
+    }
+    
+]
