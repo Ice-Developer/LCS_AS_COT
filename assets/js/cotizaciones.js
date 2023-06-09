@@ -43,11 +43,13 @@ fetch(segViajeJson)
         card.innerHTML= `<div class="cardProdSeguroViaje3"> </div>`;
         detalleCotizador.appendChild(card);
     }
-    const mostrarDetalle4 = ()=>{
+
+    const mostrarDetalle4 = ()=>{ 
         detalleCotizador.innerHTML='';
         const card = document.createElement("div");
         card.innerHTML= `<div class="cardProdSeguroViaje4"> </div>`;
-        detalleCotizador.appendChild(card);
+        detalleCotizador.appendChild(card)
+        console.log('click'); 
     }
 
 
@@ -64,17 +66,22 @@ fetch(segViajeJson)
                                     <p class="card_description">${i.descrip}</p>
                                     <span class="card_subtitle"><h3>${i.titulo}</h3></span>
                                     <div class="cardBtnCotiza">
-                                    ${i.id === 1  ? `
-                                    <button id="btn1" class="btnCS2">${i.btn1}</button>
-                                    <button id="btn2" class="btnCS2">${i.btn2}</button>
-                                    <button id="btn3" class="btnCS2">${i.btn3}</button>
-                                    ` : 
-                                    `<button id="btnCotiza" class="btnCS2">${i.btnCotiza}</button>`}
+                                    ${i.id === 1 ? `
+                                    <button id="btn1_${i.id}" class="btnCS2">${i.btn1}</button>
+                                    <button id="btn2_${i.id}" class="btnCS2">${i.btn2}</button>
+                                    <button id="btn3_${i.id}" class="btnCS2">${i.btn3}</button>
+                                    ` :
+                                    `<button id="btnCotiza_${i.id}" class="btnCS2">${i.btn}</button>`}
                                     </div>
                                 </div>
                             </article>
             `;
             contenedorServiciosViaje.appendChild(card);
+
+            const btn1 = document.getElementById(`btn1_${i.id}`);
+            const btn2 = document.getElementById(`btn2_${i.id}`);
+            const btn3 = document.getElementById(`btn3_${i.id}`);
+            const btnCotiza = document.getElementById(`btnCotiza_${i.id}`);
 
     i.id === 1
         ? (
@@ -83,6 +90,7 @@ fetch(segViajeJson)
             btn3.addEventListener("click", mostrarDetalle3)
         ): btnCotiza.addEventListener("click", mostrarDetalle4);
 
+        
         })
     };
     

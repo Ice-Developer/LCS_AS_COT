@@ -15,7 +15,7 @@
         "img": "../assets/img/vacaciones2.png",
         "descrip": "Entrenamientos personalizados para formar asesores de seguros digitalizados.",
         "titulo": "Recibi la mejor cotización para tu viaje",
-        "btnCotiza": "Solicita tu Cotización"
+        "btn": "Solicita tu Cotización"
     },
     {
         "id": 3,
@@ -23,6 +23,6 @@
         "img": "../assets/img/expatriacion.png",
         "descrip": "Entrenamientos personalizados para formar asesores de seguros digitalizados.",
         "titulo": "Tenemos las mejores opciones para vos y tu familia",
-        "btnCotiza": "Solicita tu Cotización"
+        "btn": "Solicita tu Cotización"
     }
 ]

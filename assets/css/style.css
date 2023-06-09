@@ -471,210 +471,61 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 @media (max-width: 53.125rem) {
   .tarjetas {
     flex-direction: column;
     gap: 1.875rem;
   }
 }
+
 .tarjServicios{
   width: 98%;
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0.9375rem;
-  padding: 0 0.625rem 0 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
-
-@media (max-width:59.375rem){
-  .tarjServicios {
-    width: 80%;
-    grid-template-columns: 1fr 1fr;
-  }
+.contenedorVideoAA, .imgEmpresas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  overflow: hidden;
+  
 }
-@media (max-width:40.625rem){
-  .tarjServicios{
-    grid-template-columns: 1fr;
-  }
+.reproductorVideoAA{
+  height: 100%;
+  width: 100%;
+  padding: 0.7143rem;
 }
-.tarjeta1 {
-  padding: 1.25rem 0.625rem 1.25rem 0.625rem;
-  border-radius: 0.625rem;
-  background-color: white;
+.textoAA{
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  gap: 1.25rem;
+  width: 40%;
+  padding: 0.7143rem;
 }
-.detalleCapa{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 5rem;
-  text-align: center;
-  font-weight: bold;
-  padding: 0 0.625rem 0 0.625rem;
-}
-.textCardServ{
-  display: flex;
-  height: 70%;
-  width: 98%;
-  gap: 1.25rem;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.imgServicios {
-  width: 80%;
-  aspect-ratio: 4/3;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.imgServicios img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.imgServicios2 {
-  width:100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media(max-whidth:40.625rem){
-  .imgServicios2{
-    width: auto !important;
-    height: auto !important;
-  }
-}
-.imgServicios2 img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.btnCardServ {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  gap: 0.625rem;
-}
-@media (max-width: 74.375rem){
-  .btnCardServ{
-    flex-wrap: wrap;
-    width: 90%;
-  }
-}
-.btnCS {
+.textoAA button{
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
   cursor: pointer;
-  width: 60%;
-  padding: 0.625rem;
-  background-color: rgb(95, 165, 95);
+  background-color: #14446b;
   color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 0.5rem;
-  font-size: small;
-}
-.btnCS:hover , .btnCS2:hover{
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-.btnCS2 {
-  cursor: pointer;
-  width: 60%;
-  padding: 0.625rem;
-  background-color: #EAE164;
-  color: #14446b;
-  font-weight: bold;
-  border: none;
-  border-radius: 0.5rem;
-  font-size: small;
 }
 
-.tarjServicios2 {
-  width: 50%;
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 0 1.25rem 0 1.25rem;
-}
-
-@media(max-width:40.625rem){
-  .tarjServicios2{
-    width: 80%;
-  }
-}
-
-.tarjetaCompania {
-  height: auto;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.625rem;
-  padding: 0.9375rem 0.625rem 0.9375rem 0.625rem;
-}
-@media(max-width:62.5rem){
-  .tarjetaCompania{
-    display: none;
-  }
-}
-.num {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
+.imgEmpresas img{
+  height: 100%;
   width: 100%;
-  font-size: 140%;
-}
-.num h3 {
-  text-align: center;
-  margin-bottom: 0;
-  font-weight: bolder;
-}
-.num h4{
-  text-align: center;
-}
-@media (max-width:68.0625rem){
-  .num h4{
-    height: 3.25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-.detCapComp {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  max-height: auto;
+  padding: 0.7143rem;
+  border-radius: 30px;
+  filter: grayscale(40%);
 }
 
-@media(max-width:40.625rem){
-  .detCapComp{
-    height: auto;
-    width: 100%;
-    flex-direction: column !important;
-    gap: 1.25rem;
-  }
-}
-.btnCardServ2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  gap: 1.25rem;
-}
 .sldMedios {
   width: 80%;
   color: white;
